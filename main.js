@@ -1,4 +1,10 @@
-// Question 1) Install Node.js, TypeScript and VS Code on your computer / Laptop
-// Question 2) Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
-var personName = "ERIC";
-console.log("\u201Chello ".concat(personName, ", would you like to learn some python today?\u201D"));
+// Question 3)Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+//////  Lower Case  //////
+var personName1 = "Daniyal";
+console.log(personName1.toLowerCase());
+//////  Upper Case  //////
+var personName2 = "daniyal";
+console.log(personName2.toUpperCase());
+//////  Title Case  //////
+var personName3 = "daniyal";
+console.log(personName3.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
